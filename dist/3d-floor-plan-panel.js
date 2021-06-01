@@ -174,4 +174,4 @@ class ThreeDFloorPlanPanel extends LitElement {
     `;
   }
 }
-customElements.define("3d-floor-plan-panel", ThreeDFloorPlanPanel);
+customElements.define("floor-plan-panel", ThreeDFloorPlanPanel);
