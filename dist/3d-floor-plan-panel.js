@@ -22,7 +22,7 @@ import * as THREE from './three.module.js';
 import { GLTFLoader } from './three.gltfloader.js';
 import { OrbitControls } from './three.orbitcontrols.js';
 
-class FloorplanPanel extends LitElement {
+class ThreeDFloorPlanPanel extends LitElement {
 
   static get properties() {
     return {
@@ -174,4 +174,4 @@ class FloorplanPanel extends LitElement {
     `;
   }
 }
-customElements.define("floorplan-panel", FloorplanPanel);
+customElements.define("3d-floor-plan-panel", ThreeDFloorPlanPanel);
