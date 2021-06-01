@@ -18,9 +18,9 @@ import {
   css,
 } from "https://unpkg.com/lit-element@2.4.0/lit-element.js?module";
 
-import * as THREE from '/local/community/3d-floor-plan-panel/three.module.js';
-import { GLTFLoader } from '/local/community/3d-floor-plan-panel/three.gltfloader.js';
-import { OrbitControls } from '/local/community/3d-floor-plan-panel/three.orbitcontrols.js';
+import * as THREE from 'three.module.js';
+import { GLTFLoader } from 'three.gltfloader.js';
+import { OrbitControls } from 'three.orbitcontrols.js';
 
 class FloorplanPanel extends LitElement {
 
@@ -58,7 +58,7 @@ class FloorplanPanel extends LitElement {
     const loader = new GLTFLoader();
     
     loader.load(
-      '/local/community/3d-floor-plan-panel/3d-floor-plan.glb',
+      '3d-floor-plan.glb',
       (gltf) => {
         gltf.scene.traverse((child) => {
           if (child.isMesh) {
